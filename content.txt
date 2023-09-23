@@ -1,0 +1,7 @@
+establish an interactive AI based model that will help students to to choose from careers.
+The model should handhold student in assessing his capabilities and subsequently help him in deciding a career path.
+-----
+logo, Home, search, notification, login/signup, contact
+All courses, 9th-10th, 11th-12th, Graduate, professional, job alert, Latest Updates
+AI Assistant, free career test, upload resume, Review your college, read articles, counseling
+articles: School life, college life, Student stories, study abroad, Campus news, interview preparation, active companies, internship etc.

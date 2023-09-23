@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Career Guide</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="./images/logo2.png">
+    <link href="styles.css" rel="stylesheet" >
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+    <!-- First Header -->
+<header class="top-header">
+    <div class="logo">
+        <img src="./images/logo3.png" alt="Your Career Guide Logo" width="140" height="50">
+    </div>
+    <div class="home-button">
+        <a href="#">Home</a>
+    </div>
+    <div class="search-container">
+        <form id="search-form">
+            <input type="text" placeholder="Search for colleges, Exams, Courses and More...">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <div class="notification">
+        <a href="#">Notification</a>
+    </div>
+    <div class="login-signup">
+        <a href="./login/login.html">Login/Signup</a>
+    </div>
+    <div class="contact-button">
+        <a href="#">Contact</a>
+    </div>
+</header>
+
+
+    <!-- Second Header -->
+    <header class="bottom-header">
+        <nav>
+            <ul>
+                <li><a href="#">All Courses</a></li>
+                <li><a href="#">9th-10th</a></li>
+                <li><a href="#">11th-12th</a></li>
+                <li><a href="#">Graduate</a></li>
+                <li><a href="#">Professional</a></li>
+                <li><a href="#">Job Alert</a></li>
+                <li><a href="#">Latest Updates</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section-heading">
+        <h1 class="main-heading">Shape Your Tomorrow</h1>
+        <div class="sub-heading-box">
+            <h2 class="sub-heading">Start building the future you want today</h2>
+        </div>
+    </section>
+    <!-- Hero Section -->
+    <section class="rotating-hero">
+        <div class="hero-content">
+            <img src="./images/img1.png" alt="Image 1">
+            <div class="hero-text">
+                <h1>Welcome to Your Career Guide</h1>
+                <p>Your personal AI assistant to help you choose the right career path.<br>Explore a world of opportunities and find your dream career with our guidance.</p>
+                <br>
+                <button class="button-64" role="button"><span class="text">Take the Career Test</span></button>
+            </div>
+        </div>
+        <div class="hero-content">
+            <img src="./images/img4.png" alt="Image 2">
+            <div class="hero-text">
+                <h1>Unlock Your Potential</h1>
+                <p>Assess your capabilities with our free career test.<br>Discover your strengths and interests to excel in your chosen field.</p>
+                <br>
+                <button class="button-64" role="button"><span class="text">Upload Resume</span></button>
+            </div>
+        </div>
+        <div class="hero-content">
+            <img src="./images/img2.png" alt="Image 3">
+            <div class="hero-text">
+                <h1>Explore Your Options</h1>
+                <p>Read and write reviews about colleges and universities.<br>Find the perfect educational institution for your future success.</p>
+                <br>
+                <button href="./form.html" target = "_blank" class="button-64" role="button"><span class="text">Review College</span></button>
+            </div>
+        </div>
+    </section>
+    
+    <main class="wrapper">
+        <section class="breweries" id="breweries">
+          <ul>
+            <li>
+              <figure>
+                <!-- Photo by Quentin Dr on Unsplash -->
+                <img src="./images/AIassistent.jpg" alt="Several hands holding beer glasses">
+                <figcaption><h3>AI Assistant</h3></figcaption>
+              </figure>
+              <p>
+                An intelligent virtual assistant that provides personalized career guidance and recommendations based on an individual's skills, interests, and goals.
+              </p>
+              <a href="#">Chat with AI</a>
+            </li>
+            <li>
+              <figure>
+                <!-- Photo by Drew Farwell on Unsplash -->
+                <img src="./images/test.jpg">
+                <figcaption><h3>Free Career Test</h3></figcaption>
+              </figure>
+              <p>
+                A tool that assesses an individual's aptitudes, interests, and strengths to help them identify suitable career paths and make informed educational and professional choices.
+              </p>
+              <a href="#">Start Test</a>
+            </li>
+            <li>
+              <figure>
+                <!-- Photo by Rawpixel on Unsplash -->
+                <img src="./images/resume.jpg" alt="Three different glasses of beer">
+                <figcaption><h3>Resume Scanner</h3></figcaption>
+              </figure>
+              <p>
+                Allows users to submit their resumes for personalized career advice and suggestions based on their qualifications and experiences.
+              </p>
+              <a id="uploadBtn">Upload Resume</a>
+              <input type="file" id="fileInput" style="display: none;">
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <figure>
+                <!-- Photo by Quentin Dr on Unsplash -->
+                <img src="./images/ReviewCollege.jpg" alt="Several hands holding beer glasses">
+                <figcaption><h3>Review Your College</h3></figcaption>
+              </figure>
+              <p>
+                Allows students and alumni to submit and read reviews of the college, providing insights into campus life, academics, and overall experience
+              </p>
+              <a href="./login/form.html" target = "_blank">Review College</a>
+            </li>
+            <li>
+              <figure>
+                <!-- Photo by Drew Farwell on Unsplash -->
+                <img src="./images/test.jpg">
+                <figcaption><h3>Read Articles</h3></figcaption>
+              </figure>
+              <p>
+                Provides access to a library of articles covering various topics, including academics, career advice, campus events, and student achievements.
+              </p>
+              <a href="#">Read Articles</a>
+            </li>
+            <li>
+              <figure>
+                <!-- Photo by Rawpixel on Unsplash -->
+                <img src="./images/Counsellor.jpg" alt="Three different glasses of beer">
+                <figcaption><h3>Need Counselling</h3></figcaption>
+              </figure>
+              <p>
+                Offers counseling services for students to seek guidance on academic, personal, or career-related issues, promoting their well-being and success.
+              </p>
+              <a href="#">Search Counselor</a>
+            </li>
+          </ul>
+        </section>
+      </main>
+    <!-- Articles Section -->
+    <section class="top-articles">
+        <h2>Top Articles</h2>
+        <div class="article-container">
+            <div class="article">
+                <img src="./images/SchoolLife.jpg" alt="School Life">
+                <div class="article-content">
+                    <h3>School Life</h3>
+                    <p>Explore the unforgettable memories and challenges of your school days as we delve into the joys and tribulations of growing up.
+                    </p>
+                </div>
+            </div>
+            <div class="article">
+                <img src="./images/CollegeLife.jpeg" alt="College Life">
+                <div class="article-content">
+                    <h3>College Life</h3>
+                    <p>Dive into the exciting world of college life, where new adventures, friendships, and opportunities await at every corner of the campus.</p>
+                </div>
+            </div>
+            <div class="article">
+                <img src="./images/StudentStories.jpg" alt="School Life">
+                <div class="article-content">
+                    <h3>Student Stories</h3>
+                    <p>Get inspired by the real-life journeys and experiences of students who overcame obstacles and achieved their dreams against all odds.</p>
+                </div>
+            </div>
+            <div class="article">
+                <img src="./images/Studyabroad.jpg" alt="College Life">
+                <div class="article-content">
+                    <h3>Study Abroad</h3>
+                    <p>Embark on a global learning adventure as we guide you through the process of studying abroad, discovering new cultures, and expanding your horizons.</p>
+                </div>
+            </div>
+            <div class="article">
+                <img src="./images/CampusNews.jpg" alt="School Life">
+                <div class="article-content">
+                    <h3>Campus News</h3>
+                    <p>Stay up-to-date with the latest happenings on college campuses, from events and initiatives to groundbreaking research and innovations.</p>
+                </div>
+            </div>
+            <div class="article">
+                <img src="./images/Interview.jpg" alt="College Life">
+                <div class="article-content">
+                    <h3>Interview Preparation</h3>
+                    <p>Master the art of interview preparation with expert tips and strategies to boost your confidence and secure your dream job.</p>
+                </div>
+            </div>
+            <div class="article">
+                <img src="./images/ActiveCompanies.jpg" alt="School Life">
+                <div class="article-content">
+                    <h3>Active Companies</h3>
+                    <p>Explore a curated list of thriving companies and organizations, offering valuable insights into their work culture, opportunities, and success stories.</p>
+                </div>
+            </div>
+            <div class="article">
+                <img src="./images/Internships.jpg" alt="College Life">
+                <div class="article-content">
+                    <h3>Internship</h3>
+                    <p>Navigate the world of internships and gain practical experience in your field, setting the stage for a promising career ahead.</p>
+                </div>
+            </div>
+            <!-- Add more articles here -->
+        </div>
+        <a href="#" class="read-more">Read More >></a>
+    </section>
+    <section class="career-guidance">
+        <div class="text">
+            <h2>How career guidance can help you?</h2>
+            <p>Most of the students find difficulty in choosing the right stream, course, college, or country to study. Career Counseling brings the clarity to choose the right career path.</p>
+            <p>An expert Career Counselor guides you with their professional experience, having a strong understanding of industry trends and thinking with a long-term approach which suits you the best.</p>
+            <button>Connect to a Counselor</button>
+        </div>
+        <div class="image">
+            <img src="https://i0.wp.com/www.mindgroom.com/wp-content/uploads/2021/02/Mindgroom_career_counselling_1..gif?resize=426%2C300&ssl=1" alt="Career Guidance Image">
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="./images/logo1.png" class="footer_logo">
+                <p class="footer_about">Welcome to MyVision, your personalized career guide powered by cutting-edge AI technology. Discover your ideal career path through insightful assessments that analyze your personality, skills, and interests. Explore comprehensive career profiles, educational opportunities, and job market insights to make informed decisions about your future.
+                </p>
+            </div>
+            <div class="col">
+                <h3>Get in Touch <div class="bottom_line"><span></span></div></h3>
+                <p>TechZone 2, Greater Noida</p>
+                <p>Uttar Pradesh, 201310</p>
+                <p class="footer_email">sharshitsingh007@gamil.com</p>
+                <h4>+91 6394441778</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="bottom_line"><span></span></div></h3>
+                
+                    <a href="">HOME</a><br><br>
+                    <a href="">ABOUT</a><br><br>
+                    <a href="">SERVICE</a><br><br>
+                    <a href="">CONTACT US</a>
+                
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="bottom_line"><span></span></div></h3>
+                <form>
+                    <ion-icon class="icon" name="mail"></ion-icon>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><ion-icon class="icon_right" name="arrow-round-forward"></ion-icon></button>
+                </form>
+                <div class="social_icons">
+                    <ion-icon class="social_icon" name="logo-facebook"></ion-icon>
+                    <ion-icon class="social_icon" name="logo-whatsapp"></ion-icon>
+                    <ion-icon class="social_icon" name="logo-twitter"></ion-icon>
+                    <ion-icon class="social_icon" name="logo-instagram"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">MyVision Ⓒ 2023 - All Rights Reserved</p>
+     </footer> 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
