@@ -426,7 +426,9 @@ footer .copyright {
   display: inline-block;
   transition: all .3s;
 }
-
+.breweries input{
+    cursor:pointer;
+}
 .wrapper a:hover {
   opacity: .6;
 }
